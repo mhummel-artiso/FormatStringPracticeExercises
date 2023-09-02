@@ -16,7 +16,7 @@
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-
+	"postStartCommand": "bash -c \"$(curl -fsSL https://gef.blah.cat/sh)\" && bash -c \"$(curl -fsSL https://github.com/hugsy/gef/raw/main/scripts/gef-extras.sh)\"",
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
@@ -24,12 +24,18 @@
 				"ms-vscode.cpptools-extension-pack",
 				"coolchyni.beyond-debug",
 				"ms-vscode.hexeditor",
-				"vscode-icons-team.vscode-icons"
+				"vscode-icons-team.vscode-icons",
+				"dseight.disasexpl"
 			],
 			"settings": {
 				"editor.tabSize": 2,
 				"workbench.colorTheme": "Visual Studio Dark - C++",
-				"workbench.iconTheme": "vscode-icons"
+				"workbench.iconTheme": "vscode-icons",
+				"disasexpl.useBinaryParsing": true,
+				"disasexpl.associations": {
+					"**/*.c": "${fileDirname}/${fileBasenameNoExtension}.S",
+					"**/*.cpp": "${fileDirname}/${fileBasenameNoExtension}.S"
+				},
 			}
 		}
 	}
