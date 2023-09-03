@@ -17,6 +17,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	"postStartCommand": "bash -c \"$(curl -fsSL https://gef.blah.cat/sh)\" && bash -c \"$(curl -fsSL https://github.com/hugsy/gef/raw/main/scripts/gef-extras.sh)\"",
+	"postAttachCommand": "sudo chmod 755 ./compile.sh",
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
