@@ -1,7 +1,23 @@
-# ex 1
+# [Aufgabe 1](./ex1.c)
 
-# ex 2
+```bash
+./ex1.out [Antwort einfügen]
+```
 
-# ex 3
+# [Aufgabe 2](./ex2.c)
 
-# ex 4
+```bash
+./ex2.out [Antwort einfügen]
+```
+
+# [Aufgabe 3](./ex3.c)
+
+```bash
+./ex3.out [Antwort einfügen]
+```
+
+# [Aufgabe 4](./ex4.c)
+
+```bash
+./ex4.out [Antwort einfügen]
+```
