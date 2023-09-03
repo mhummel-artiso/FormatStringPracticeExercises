@@ -11,8 +11,7 @@
             "program": "${fileBasenameNoExtension}",
             "cwd": "${workspaceRoot}",
             "programArgs": ""
-        }
-        ,
+        },
         {
             "name": "C/c++ Degugger (gdb)",
             "type": "cppdbg",
