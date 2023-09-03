@@ -1,7 +1,9 @@
 # [Aufgabe 1](./ex1.c)
 
 ```bash
-./ex1.out [Antwort einfügen]
+num1 = [Antwort einfügen]
+num2 = [Antwort einfügen]
+str = [Antwort einfügen]
 ```
 
 # [Aufgabe 2](./ex2.c)
