@@ -61,7 +61,7 @@ Schreibe 3 als Integer in die target-Variable.
 
 > Tipp: Entscheide dich für den richtigen Format Identifier und finde die Adresse.
 
-Gib als Antwort den Befehl an, der str als String ausgibt.
+Gib als Antwort den Befehl an, der die target-Variable entsprechend verändert (Es gibt mehrere Möglichkeiten).
 
 ```bash
 ./compile.sh ex4
